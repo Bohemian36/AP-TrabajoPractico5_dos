@@ -11,7 +11,7 @@ public class Lista {
       //Creación del archivo
       FileWriter writeInFile = new FileWriter("Lista.txt");
         //Agregar contenido al archivo
-        writeInFile.write("Producto: Hamburguesas x 10 \nCantidad: 2 \nPrecio: 1800.50 \nSubTotal: 3601 \nProducto: Pan x kg \nCantidad: 2 \nPrecio: 315 \nSubTotal: 630 \nProducto: Jugo de naranja \nCantidad: 3 \nPrecio: 175 \nSubTotal:525 \n\nTotalFinal: $4756");
+        writeInFile.write("Producto: Hamburguesas x 10 \nCantidad: 2 \nPrecio: 1800.50 \nSubTotal: 3601 \nProducto: Pan x kg \nCantidad: 2 \nPrecio: 315 \nSubTotal: 630 \nProducto: Jugo de naranja \nCantidad: 3 \nPrecio: 175 \nSubTotal: 525 \n\nTotalFinal: $4756");
         writeInFile.close();
      //System.out.println("El archivo fue creado");
     } catch (IOException x) {
